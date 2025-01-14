@@ -1,2 +1,4 @@
 FROM php:7.4
-COPY index.php /php/index.php
+RUN apt-get update
+RUN apt-get install -y git
+ENTRYPOINT git clone https://github.com/AlessioFoddo/progetto.git; php /progetto/index.php

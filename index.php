@@ -1,5 +1,5 @@
 <?php
 
-    echo "VIVA JOJO\n"
+    echo "VIVA BRAWL STARS\n"
 
 ?>
